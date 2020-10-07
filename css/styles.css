@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f4f6f9;
+  padding: 20px;
+}
+
+aside {
+  width: 370px;
+  height: 1319px;
+  background: #1e2939;
+  line-height: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.company-name {
+  color: #ff6b08;
+}
+
+.aside-content {
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+}
+
+.profile-foto {
+  width: 370px;
+  height: 354px;
+}
+
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
