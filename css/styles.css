@@ -14,7 +14,7 @@ aside {
   height: 1319px;
   background: #1e2939;
   line-height: 24px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -24,11 +24,15 @@ aside {
 
 .aside-content {
   padding-left: 40px;
+  padding-top: 57px;
   box-sizing: border-box;
+  color: #ffffff;
 }
-h3 {
+
+.h3-aside {
   font-size: 22px;
   font-weight: 700;
+  line-height: 24px;
 }
 
 .wrapper {
@@ -37,8 +41,9 @@ h3 {
 }
 
 .profile-foto {
-  width: 370px;
-  height: 354px;
+  height: auto;
+  width: auto;
+  max-width: 370px;
 }
 
 .about-me-container {
