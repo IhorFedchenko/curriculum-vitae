@@ -18,13 +18,22 @@ aside {
   padding-bottom: 40px;
 }
 
+aside ul {
+  padding-left: 20px;
+  color: #ff6b08;
+}
+
+.aside-li-text {
+  color: #ffffff;
+}
+
 .company-name {
   color: #ff6b08;
 }
 
 .aside-content {
   padding-left: 40px;
-  padding-top: 57px;
+  padding-top: 0 px;
   box-sizing: border-box;
   color: #ffffff;
   font-size: 14px;
@@ -51,6 +60,7 @@ aside {
   height: auto;
   width: auto;
   max-width: 370px;
+  margin-bottom: 57px;
 }
 
 .about-me-container {
