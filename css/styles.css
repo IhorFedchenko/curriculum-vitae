@@ -7,11 +7,13 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #f4f6f9;
   padding: 20px;
+  width: 21cm;
+  height: 29.7;
 }
 
 aside {
-  width: 370px;
-  height: 1319px;
+  width: 5.5cm;
+  height: 29.7cm;
   background: #1e2939;
   line-height: 24px;
   padding-top: 20px;
@@ -23,27 +25,23 @@ aside ul {
   color: #ff6b08;
 }
 
+aside h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .aside-li-text {
   color: #ffffff;
 }
 
-.company-name {
-  color: #ff6b08;
-}
-
 .aside-content {
-  padding-left: 40px;
+  padding-left: 10px;
   padding-top: 0 px;
   box-sizing: border-box;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
-}
-
-.h3-aside {
-  font-size: 22px;
-  font-weight: 700;
   line-height: 24px;
 }
 
@@ -56,23 +54,28 @@ aside ul {
   display: flex;
 }
 
-.profile-foto {
+aside img {
   height: auto;
   width: auto;
-  max-width: 370px;
+  max-width: 5.5cm;
   margin-bottom: 57px;
 }
 
 .about-me-container {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
   padding-bottom: 110px;
+  font-size: 12px;
+}
+
+.about-me-container h4 {
+  color: #ff6b08;
 }
 
 .contact-links {
   color: #ffffff;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .contact-id {
